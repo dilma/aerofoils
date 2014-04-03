@@ -72,11 +72,11 @@
                     </div>
                     <div style="text-indent: 20px;">
                         <img src="images/cylinder.png" align="middle" style="width:40%;height:50%">
-                        <div >
+                        <div>
                             Fig. 1. <br />Cylinder in a freestream
                             Streamline pattern around unit radiouse cylinder.
                         </div>
-                        <br/>
+                        <br />
                         <p>In analytical method, complex velocity potential of cylinder in a free stream (Fig. 1) is defined according to Milne-Thomson circle theorem which was mentioned in Eqs. 1.</p>
                         <p>w(z)  = f(z)+f ̅(a^2/z)= f (z)+f ̅(z)--------------------                (1)    </p>
                         <p>w (z) can be also expressed as in equation 2. a indicates the radius of the circle.</p>
@@ -85,7 +85,7 @@
                         <p>Complex velocity =( V) ̅=〖V_∞ e〗^(-iα) (e^2iα-e^(-2iϑ) )------------------         (3)   </p>
                         <p>Tangential velocity is obtained using equation 3.If the tangent velocity and freestream velocity are known, pressure coefficient can be obtained by Eqs 4.</p>
                         <p>C_(p,i )=1-(V_i/V_∞ )^2 ---------------------(4) </p>
-                        <p>V_i,V_∞in indicate tangential velocity and freestream velocity respectively</p>
+                        <p>V_i,V_∞ indicate tangential velocity and freestream velocity respectively</p>
                     </div>
                 </section>
 
@@ -93,92 +93,20 @@
                     <div class="page-header">
                         <h4>PANEL METHOD APPROACH FOR FLOW PAST CYLINDER</h4>
                     </div>
-                    Panel method can be applied for a cylindrical shape, in the same way of applying for arbitrary shape to find the pressure flow parameters. Surface of the cylinder is divided into panels. Midpoint of the panel is called control point or collocation point. Actual shape of the obstacle can be obtained by increasing the number of panels.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    Read more
-
-                    Sources are located each control point and velocity induced of the point p  was found by considering the effect of all the sources. Point p changes to jth control point when finding the velocity at the boundary of the surface
-
-                    The complete velocity potential at point P, induced by the entire source sheet along the surface s, is obtained by integrating Eqs. 5. λ_j,〖 r〗_ij  Indicates sources strength and distance between ith and jth panel respectively
-
-                    ϕ(x_j,y_j )=∑_(j=1)^n▒〖λ_j/2Π ∫_j▒〖ln〖 r〗_ij ds_j 〗〗               (5)
-
-                    The normal velocity generated on the collocation point due to the sources effect is given in  Eqs 6.
-
-                    V_n=  λ_i/2+∑_█(j=1@j≠1)^n▒〖λ_j/2Π ∫_j▒〖ln〖 r〗_ij ds_j 〗〗                                    (6)
-
-                    The normal velocity generated on the collocation point due to the freestream effect given in Eqs. 7
-
-                    V_(∞,n)=V_∞  cos⁡〖(β_i )                                   〗 (7)
-
-                    The velocity induced by a particular point is obtained by considering the effects of freestream and all the sources. Normal velocities induced by all the sources are considered
-                    as zero after applying the boundary condition mentioned in Eqs. 8
-
-                    λ_i/2+∑_█(j=1@j≠1)^n▒〖λ_j/2Π ∫_j▒〖ln〖 r〗_ij ds_j 〗〗+V_∞  cos⁡(β_i )=0  (8)
-
-                    Source strengths are calculated by mathematical tool using boundary condition.  Then total tangential velocity is obtained by (Eqs. 9) which is a linear algebraic equation with n unknowns (λ_1,λ_2,……..λ_n.)
-
-                    V_i     =V_(∞,s)+V_s=V_∞  cos⁡(β_i )  +∑_█(j=1@)^n▒〖λ_j/2Π ∫_j▒〖∂/∂s ln〖 r〗_ij ds_j    (9)〗〗
-                    It represents the flow boundary condition evaluated at the control point of the ith panel.
-                    The boundary condition is applied to the control points of all panels which results in a system of n linear algebraic equation with n unknowns (λ_1,λ_2,……..λ_n.)  which can be solved by matrixes Eqs. 10.
-
-                    [■(λ_1@λ_2@⋮)]×[■(I_1,1&I_1,2&…@I_2,1&⋱&…@⋮&⋮&⋱)]=[■(2πv cos⁡(α-β_1 )@2πv cos⁡(α-β_2 )@⋮)]                                 (10)
-
-                    The tangential velocity generated on the collocation point due to the freestream effect given in Eqs. 11
-                    V_(∞,s)= V_∞  cos⁡(β_i  )                    (11)
-
-                    The tangential velocity V_s at the control point of the i th panel induced by all the panels is obtained by differentiating with respect to surface length,
-
-                    V_s=  ∂ϕ/∂s= ∑_█(j=1@)^n▒〖λ_j/2Π ∫_j▒〖∂/∂s ln〖 r〗_ij ds_j                      (12)〗〗
-                    The total surface velocity at the i th control point V_i is the sum of the contribution from the freestream and from the source panels.
-                    V_i     =V_(∞,s)+V_s=V_∞  cos⁡(β_i )  +∑_█(j=1@)^n▒〖λ_j/2Π ∫_j▒〖∂/∂s ln〖 r〗_ij ds_j         (13)〗〗
-                    Pressure coefficient is determined by (Eqs.4).
-                    C_(p,i )=1-(V_i/V_∞ )^2                             (4)
-
+                    <div style="text-indent: 20px;">
+                        <p>Panel method can be applied for a cylindrical shape, in the same way of applying for arbitrary shape to find the pressure flow parameters. Surface of the cylinder is divided into panels. Midpoint of the panel is called control point or collocation point. Actual shape of the obstacle can be obtained by increasing the number of panels.</p>
+                        <img src="images/aero.PNG" align="middle" style="width: 60%; height: 50%">
+                    </div>
                 </section>
 
-                <section id="objectives">
-                    
-                </section>
+                <section id="objectives"></section>
 
-                <section id="scope">
-                   
-                </section>
+                <section id="scope"></section>
 
-                <section id="limitations">
-                    
-                </section>
+                <section id="limitations"></section>
 
-                <section id="assumptions">
-                   
-                </section>
-                <section id="project_plan">
-                    
-                </section>
+                <section id="assumptions"></section>
+                <section id="project_plan"></section>
 
             </div>
         </div>
